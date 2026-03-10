@@ -15,5 +15,6 @@ const palindromes = function (string) {
   // Return the outcome of the comparison which will either be true or false
   return cleanedString === reversedString;
 };
+console.log(palindromes("Rats live on no evil star."));
 
 module.exports = palindromes;
